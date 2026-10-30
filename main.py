@@ -6,7 +6,7 @@ from datetime import datetime
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID", "-1004393947316")
 TOKEN_CONTRACT = "TEBhTK13xxVdMoEutByrsQgz9qdpaS6jLZ"
-LAUNCHPAD_PROXY = "TTfvy rAz86hbZk5iDpKD78pqLGgi8C7AAw"
+LAUNCHPAD_PROXY = "TTfvyrAz86hbZk5iDpKD78pqLGgi8C7AAw"
 TRONSCAN_API_KEY = os.environ.get("TRONSCAN_API_KEY")
 MIN_AMOUNT = 5
 PORT = int(os.environ.get("PORT", 10000))
