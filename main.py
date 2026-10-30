@@ -1,10 +1,3 @@
-import requests, time, os, threading
-from http.server import BaseHTTPRequestHandler, HTTPServer
-from datetime import datetime
-
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID", "-1004393947316")
-TOKEN_CONTRACT = "TEBhTK13xxVdMoEutByrsQgz9qdpaS6jLZ"
 LAUNCHPAD_PROXY = "TTfvy rAz86hbZk5iDpKD78pqLGgi8C7AAw"
 TRONSCAN_API_KEY = os.environ.get("TRONSCAN_API_KEY")
 MIN_AMOUNT = 5
